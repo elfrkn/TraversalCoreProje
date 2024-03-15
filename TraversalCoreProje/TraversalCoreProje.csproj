@@ -7,8 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\colorlib-regform-26\css\style.css.map" />
+    <None Include="wwwroot\colorlib-regform-26\css\style.scss" />
+    <None Include="wwwroot\colorlib-regform-26\fonts\linearicons\fonts\Linearicons-Free.svg" />
+    <None Include="wwwroot\colorlib-regform-26\fonts\linearicons\fonts\Linearicons-Free.woff2" />
+    <None Include="wwwroot\colorlib-regform-26\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\colorlib-regform-26\js\main.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.9.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.28" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.28">
       <PrivateAssets>all</PrivateAssets>
