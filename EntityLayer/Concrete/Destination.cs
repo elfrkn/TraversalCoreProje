@@ -24,5 +24,7 @@ namespace EntityLayer.Concrete
         public  string Image2 { get; set; }
 
         public  List<Comment> Comments { get; set; }//Yorumlar burada listeleniyor
+
+        public List<Reservation> Reservations { get; set; }
     }
 }
