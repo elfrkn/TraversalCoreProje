@@ -36,7 +36,8 @@ builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<Context
 builder.Services.ContainerDependencies();
 
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddTransient<IValidator<AnnouncementAddDtos>, AnnouncementValidator>();
+
+builder.Services.CustomerValidator();
 
 builder.Services.AddControllersWithViews().AddFluentValidation();
 
