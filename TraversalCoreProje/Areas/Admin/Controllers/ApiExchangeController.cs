@@ -28,7 +28,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             {
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
-               var values = JsonConvert.DeserializeObject<BookingExchangeViewModel2>(body);
+                var values = JsonConvert.DeserializeObject<BookingExchangeViewModel2>(body);
                 return View(values.exchange_rates);
             }
         }
