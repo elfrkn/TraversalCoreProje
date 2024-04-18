@@ -20,7 +20,9 @@ namespace TraversalCoreProje.CQRS.Handlers.DestinationHandlers
             {
                 Destinationid = values.DestinationID,
                 City = values.City,
-                Daynight = values.DayNight
+                Daynight = values.DayNight,
+                Price = values.Price
+
             };
         }
     }
