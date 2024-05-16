@@ -21,6 +21,7 @@ Bu projede kullanıcılar site üzerinden gezi turları hakkında bilgi edinebil
 
 ![DestinationalDetails](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/740c0043-401e-46c9-9efd-0e08838304bc)
 
+![Anasayfa](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/c91ef61c-3672-44fe-b59b-1536439f29a2)
 
 
 # Admin Paneli
