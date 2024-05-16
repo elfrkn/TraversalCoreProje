@@ -200,3 +200,99 @@ System.InvalidOperationException: The view 'Components/_MemberStatistic/Default'
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-16T16:39:18.9750883+02:00 40000097-000e-fe00-b63f-84710c7967bb [ERR] The view '"System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]"' was not found. Searched locations: ["/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml"] (9bb2756c)
+2024-05-16T16:39:18.9837917+02:00 40000097-000e-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]' was not found. The following locations were searched:
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-16T16:43:00.0355179+02:00 40000021-0006-fb00-b63f-84710c7967bb [ERR] The view '"System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]"' was not found. Searched locations: ["/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml"] (9bb2756c)
+2024-05-16T16:43:00.0438897+02:00 40000021-0006-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]' was not found. The following locations were searched:
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-16T16:45:24.0255641+02:00 40000075-000a-fb00-b63f-84710c7967bb [ERR] The view '"System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]"' was not found. Searched locations: ["/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml", "/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml"] (9bb2756c)
+2024-05-16T16:45:24.0334537+02:00 40000075-000a-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination]' was not found. The following locations were searched:
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Destination/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Areas/Member/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Views/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].tr.cshtml
+/Pages/Shared/System.Linq.Enumerable+SelectListIterator`2[EntityLayer.Concrete.Destination,EntityLayer.Concrete.Destination].cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
