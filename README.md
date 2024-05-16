@@ -29,7 +29,7 @@ Bu projede kullanıcılar site üzerinden gezi turları hakkında bilgi edinebil
 
 ![Admin Dashboard](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/f41815a5-eb36-4e37-852b-22bdd75eb230)
 
-![AdminRehberler](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/e9bf7d06-3f09-4b6e-af4d-754b647cf252)
+![AdminRehberler](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/95984376-82a0-4dec-b087-84f17e0b5242)
 
 ![AdminRoleList](https://github.com/elfrkn/TraversalCoreProje/assets/101409313/1e9d024a-71b3-4c82-a6f5-fa74b93792d2)
 
